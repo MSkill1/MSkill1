@@ -12,6 +12,8 @@ Zynkbot is built on a privacy-first architecture: local LLM inference, on-device
 
 **Tech stack:** Rust · Tauri · React · PostgreSQL + pgvector · llama.cpp · Candle (BERT/Whisper)
 
+The architecture extends beyond a single device — ZynkSync syncs your memory across your own machines over your local network, ZChat enables encrypted peer-to-peer messaging between paired devices, and ZynkLink lets you transfer files and LLM models directly between devices without an internet connection. Download a model once, share it everywhere on your local network. No cloud intermediary at any layer.
+
 ---
 
 ## ContainAI
